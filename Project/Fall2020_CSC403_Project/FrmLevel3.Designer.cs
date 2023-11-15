@@ -75,11 +75,21 @@
       // 
       // lblInGameTime
       // 
-      this.lblInGameTime.Location = new System.Drawing.Point(0, 0);
-      this.lblInGameTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.lblInGameTime.AutoSize = true;
+      this.lblInGameTime.BackColor = System.Drawing.Color.Black;
+      this.lblInGameTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblInGameTime.ForeColor = System.Drawing.Color.White;
+      this.lblInGameTime.Location = new System.Drawing.Point(18, 14);
+      this.lblInGameTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lblInGameTime.Name = "lblInGameTime";
-      this.lblInGameTime.Size = new System.Drawing.Size(67, 15);
-      this.lblInGameTime.TabIndex = 95;
+      this.lblInGameTime.Size = new System.Drawing.Size(46, 18);
+      this.lblInGameTime.TabIndex = 2;
+      this.lblInGameTime.Text = "label1";
+      // 
+      // tmrUpdateInGameTime
+      // 
+      this.tmrUpdateInGameTime.Enabled = true;
+      this.tmrUpdateInGameTime.Tick += new System.EventHandler(this.tmrUpdateInGameTime_Tick);
       // 
       // tmrPlayerMove
       // 
@@ -359,14 +369,14 @@
       this.Controls.Add(this.wall3);
       this.Controls.Add(this.wall4);
       this.Controls.Add(this.wall2);
-      this.Controls.Add(this.wall1);
       this.Controls.Add(this.lblInGameTime);
+      this.Controls.Add(this.wall1);
       this.DoubleBuffered = true;
       this.MaximumSize = new System.Drawing.Size(1215, 765);
       this.MinimumSize = new System.Drawing.Size(1215, 765);
       this.Name = "FrmLevel3";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "C";
+      this.Text = "Explore";
       this.Load += new System.EventHandler(this.LoadLevel);
       this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmLevel_KeyDown);
       this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmLevel_KeyUp);
@@ -393,6 +403,7 @@
       ((System.ComponentModel.ISupportInitialize)(this.obstacle3)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.obstacle5)).EndInit();
       this.ResumeLayout(false);
+      this.PerformLayout();
 
     }
 

@@ -74,5 +74,5 @@ eject them from the ship. The enemies in this level are listed below:
 - Boss Imposter
    - Health: 100
 
-.. image:: ../images/level2.png
+.. image:: ../images/level3.png
 
