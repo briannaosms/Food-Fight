@@ -1,5 +1,5 @@
-Saving and Loading the Game
-===========================
+Saving and Loading
+==================
 
 The start and pause screen have text fields for creating and loading a save file. Save files are .csv files
 (currently stored in the default run location for the Visual Studio project). A save file is made for each

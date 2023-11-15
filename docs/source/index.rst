@@ -31,6 +31,7 @@ Check out the :doc:`changelog` section for additional features and bug fixes.
    healing
    experience
    lore
+   saving
 
    docguide
    changelog
