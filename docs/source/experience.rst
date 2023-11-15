@@ -26,7 +26,7 @@ To setup the experience system, these key changes were made:
 * the BattleCharacter class was given a 'experience' variable
 * the Player class was given a 'earnExperience' method
 
-While FrmBattle is active, if the player defeats the enemy, then the player's 'earnExperience' method is called.
+While FrmBattle is active, if the player defeats the enemy inside the 'btnAttack_Click' method, then the player's 'earnExperience' method is called.
 The only argument that the method takes is the enemy's 'experience' variable. Inside the method, if the 'experience'
 exceeds the 'experiencePerLevel' variable, then the following is done:
 
