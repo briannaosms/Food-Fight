@@ -30,6 +30,7 @@ Check out the :doc:`changelog` section for additional features and bug fixes.
    weapons
    healing
    experience
+   savescreen
    lore
 
    docguide
