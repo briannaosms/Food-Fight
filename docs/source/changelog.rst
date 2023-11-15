@@ -6,6 +6,15 @@ Changelog
    the changelog according to the existing format (your user, user story/major task 
    description, and pull request in each bullet point). 
 
+Version 0.2.0
+-------------
+**Date:** 16 November 2023
+
+**Features:**
+
+- `@Kennedy`_: Added more weapons and health packs to the levels. (`#20 <https://github.com/briannaosms/Food-Fight/pull/20>`_) 
+
+
 Version 0.1.0
 -------------
 **Date:** 24 October 2023
