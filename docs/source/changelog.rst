@@ -12,6 +12,12 @@ Version 0.2.0
 
 **Features:**
 
+- `@Brianna`_: Added a third level to the game (`#23 <https://github.com/briannaosms/Food-Fight/pull/23>`_)
+	
+	- Added new environment with walls and obstacles
+	- Added enemies and new battle assets
+	- Create new win screen ``FrmWinLevelThree.cs`` after the player defeats the last boss 
+
 - `@Kennedy`_: Added more weapons and health packs to the levels. (`#20 <https://github.com/briannaosms/Food-Fight/pull/20>`_) 
 
 - `@Luke`_: Added a flee button to FrmBattle.cs (`#18 <https://github.com/briannaosms/Food-Fight/pull/18>`_)
@@ -26,6 +32,12 @@ Version 0.2.0
 	- In some Forms, a function was added to initialize all sounds in the Form
 	- Sounds are in .wav formats, located in the project's properties
 	- Sounds are called into variables, loaded, then played
+
+**Bug Fixes:**
+
+- `@Brianna`_: Fix ``OutOfMemory Exception`` when exiting the game on Level 2 (`#23 <https://github.com/briannaosms/Food-Fight/pull/23>`_)
+
+	- Redesigned Level 2 and Level 3 to have significantly less ``Character`` objects to reduce memory usage
 
 
 Version 0.1.0

@@ -14,23 +14,19 @@ A `code base`_ was assigned to apply improvements and create additional features
 
 .. note::
 
-   This project is in active development. The current project version is `0.1.0 <https://github.com/briannaosms/Food-Fight>`_.
+   This project is in finished on November 16, 2023. The latest project version is `0.2.0 <https://github.com/briannaosms/Food-Fight>`_.
 
 
 Check out the :doc:`changelog` section for additional features and bug fixes.
 
-.. default-domain:: sphinxsharp
-.. type:: public class Example
-
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    tutorial
    levels
    weapons
    healing
    experience
-   lore
 
    docguide
    changelog
