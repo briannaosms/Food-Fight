@@ -29,5 +29,7 @@ Check out the :doc:`changelog` section for additional features and bug fixes.
    experience
    savescreen
    lore
+   saving
+
    docguide
    changelog
