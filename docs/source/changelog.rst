@@ -6,6 +6,40 @@ Changelog
    the changelog according to the existing format (your user, user story/major task 
    description, and pull request in each bullet point). 
 
+Version 0.2.0
+-------------
+**Date:** 16 November 2023
+
+**Features:**
+
+- `@Brianna`_: Added a third level to the game (`#23 <https://github.com/briannaosms/Food-Fight/pull/23>`_)
+	
+	- Added new environment with walls and obstacles
+	- Added enemies and new battle assets
+	- Create new win screen ``FrmWinLevelThree.cs`` after the player defeats the last boss 
+
+- `@Kennedy`_: Added more weapons and health packs to the levels. (`#20 <https://github.com/briannaosms/Food-Fight/pull/20>`_) 
+
+- `@Luke`_: Added a flee button to FrmBattle.cs (`#18 <https://github.com/briannaosms/Food-Fight/pull/18>`_)
+
+	- Added to flee button to FrmBattle designer
+	- When button is clicked, the player have a fifty percent chance for the flee to succeed
+	- If the flee succeeds, the FrmBattle window closes
+	- If the flee fails, the flee button become inoperable
+
+- `@Luke`_: Added various sounds to all three levels (`#21 <https://github.com/briannaosms/Food-Fight/pull/21>`_)
+
+	- In some Forms, a function was added to initialize all sounds in the Form
+	- Sounds are in .wav formats, located in the project's properties
+	- Sounds are called into variables, loaded, then played
+
+**Bug Fixes:**
+
+- `@Brianna`_: Fix ``OutOfMemory Exception`` when exiting the game on Level 2 (`#23 <https://github.com/briannaosms/Food-Fight/pull/23>`_)
+
+	- Redesigned Level 2 and Level 3 to have significantly less ``Character`` objects to reduce memory usage
+
+
 Version 0.1.0
 -------------
 **Date:** 24 October 2023
@@ -43,8 +77,7 @@ Version 0.1.0
 - `@Luke`_: Enemies disappear after defeat (`#7 <https://github.com/briannaosms/Food-Fight/pull/7>`_)
 	
 	- Added "IsAlive" variable to character class
-	- Added gravestone.png to project resources
-	- Added function that turns enemy pictures to gravestone when IsAlive is false
+	- Added function that turns off enemy pictures when IsAlive is false
 
 - `@Brianna`_: Fixed level textures scaling (`#6 <https://github.com/briannaosms/Food-Fight/pull/6>`_)
 - `@Brianna`_: Fixed crash when battle window closes (`#1 <https://github.com/briannaosms/Food-Fight/pull/1>`_)
