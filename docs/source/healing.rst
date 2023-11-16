@@ -1,9 +1,6 @@
 Healing
 =======
 
-.. note::
-   This page is in development.
-
 .. default-domain:: sphinxsharp
 
 
