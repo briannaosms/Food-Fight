@@ -6,11 +6,21 @@ Changelog
    the changelog according to the existing format (your user, user story/major task 
    description, and pull request in each bullet point). 
 
-Version 0.2.0
+Version 1.0.0
 -------------
 **Date:** 16 November 2023
 
 **Features:**
+
+- `@Jonah`_: Added a save and load feature for creating save states (`#11 <https://github.com/briannaosms/Food-Fight/pull/17>`_)
+	
+	- Players can create a new save file from the pause screen while playing
+	- PLayers can load previous games from a save file from the start screen or pause screen
+
+- `@Jonah`_: Added a start and pause screen (`#11 <https://github.com/briannaosms/Food-Fight/pull/17>`_)
+	
+	- A start screen is displayed when the game starts
+	- The player can use the escape key to pause the game and see the menu again
 
 - `@Brianna`_: Added a third level to the game (`#23 <https://github.com/briannaosms/Food-Fight/pull/23>`_)
 	
