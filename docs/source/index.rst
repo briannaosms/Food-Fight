@@ -14,7 +14,7 @@ A `code base`_ was assigned to apply improvements and create additional features
 
 .. note::
 
-   This project is in finished on November 16, 2023. The latest project version is `0.2.0 <https://github.com/briannaosms/Food-Fight>`_.
+   This project finished on November 16, 2023. The latest project version is `1.0.0 <https://github.com/briannaosms/Food-Fight>`_.
 
 
 Check out the :doc:`changelog` section for additional features and bug fixes.
@@ -22,13 +22,11 @@ Check out the :doc:`changelog` section for additional features and bug fixes.
 .. toctree::
    :maxdepth: 4
 
-   tutorial
    levels
    weapons
    healing
    experience
    savescreen
-   lore
    saving
 
    docguide
